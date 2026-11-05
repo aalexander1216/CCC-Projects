@@ -2,12 +2,43 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
   <title>Astro Weight Calculator</title>
 </head>
 
 <body>
-  <!-- Write your markup here  -->
+  <h1>Astro Weight Calculator</h1>
+  <input id="user-weight" type="text" placeholder="Weight (lbs)" />
+
+  <select id="planets"></select>
+
+  <label>
+    <input type="checkbox" id="remove-pluto">
+    Exclude Pluto
+  </label>
+
+  <h3>Add a Custom Planet</h3>
+
+  <input
+    type="text"
+    id="custom-planet"
+    placeholder="Planet Name"
+  >
+
+  <input
+    type="number"
+    id="custom-multiplier"
+    placeholder="Gravity Multiplier"
+    step="any"
+    >
+
+    <button id="add-planet">Add Planet</button>
+
+
+  <button id="calculate-button">Calculate Weight</button>
+
+  <p id="output"></p>
 
   <script src="main.js" charset="utf-8"></script>
 </body>

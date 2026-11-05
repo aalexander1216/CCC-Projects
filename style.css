@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color:white;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url("/users/andre/projects/web102-astroweight-calculator/images.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#calculate-button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+#planets {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#user-weight {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#placeholder {
+    background-color: black;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#output {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+#custom-planet {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#custom-multiplier {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#add-planet {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+h3 {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+}
+label {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
